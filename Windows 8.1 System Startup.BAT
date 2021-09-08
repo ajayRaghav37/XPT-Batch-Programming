@@ -1,0 +1,6 @@
+@ECHO OFF
+TITLE System StartUp
+ECHO Starting Security Schema...
+START "Resuming BoostUp..." /REALTIME "D:\Corporate\ANIco.in\Visual Basic Projects\Security Schema\Security Schema.exe"
+ECHO Connecting to the internet...
+RASDIAL "Unreliable Assembly" "1412005227@AAAND.IN" "1412005227" > NUL
